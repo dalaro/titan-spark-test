@@ -1,5 +1,7 @@
 
-    # In the repo root
+    # Start titan05 at the desired version, load GraphOfTheGods
+    # ...
+    # In the repo root:
     mvn clean package -DskipTests=true
     # SPARK_HOME=~/spark-1.2.1 or whatever
     cd $SPARK_HOME
