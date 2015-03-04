@@ -1,0 +1,28 @@
+<configuration>
+
+  <property>
+    <name>titan.hadoop.input.conf.storage.backend</name>
+    <value>cassandrathrift</value>
+  </property>
+
+  <property>
+    <name>titan.hadoop.input.conf.storage.hostname</name>
+    <value>localhost</value>
+  </property>
+
+  <property>
+    <name>titan.hadoop.input.conf.storage.port</name>
+    <value>9160</value>
+  </property>
+
+  <property>
+    <name>titan.hadoop.input.conf.storage.cassandra.keyspace</name>
+    <value>titan</value>
+  </property>
+
+  <property>
+    <name>cassandra.input.partitioner.class</name>
+    <value>org.apache.cassandra.dht.Murmur3Partitioner</value>
+  </property>
+
+</configuration>
